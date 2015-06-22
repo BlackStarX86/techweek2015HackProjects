@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.burakkusutax86.techweekapp2.Profile">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/default_profile"
+        />
+    <TextView
+        android:id="@+id/interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile"
+        android:text="Interests"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_rounded"
+        android:text="+ Korean BBQ"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/interest"
+        android:textColor="#ffffff"
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_rounded"
+        android:text="+ Karaoke"
+        android:layout_below="@+id/interest"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/btn1"
+        android:textColor="#ffffff"
+        />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/interest"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_rounded"
+        android:text="+ Salads"
+        android:layout_toRightOf="@+id/btn2"
+        android:textColor="#ffffff"
+        />
+</RelativeLayout>
+
+
+</FrameLayout>
